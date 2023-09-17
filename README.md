@@ -1,6 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# dApp-A-thon Season 2
 
-## Getting Started
+Submission for dApp-A-thon Season 2.
+
+Project: NFT Token Gated Access to Private Movie
+
+This app requires user to login with Metamask (SIWE) and then checks if wallet owns the required NFT. 
+If yes, it will use Spheron SDK to download decrypt IPFS CID. (file was upload and encrypted with Spheron SDK)
+The IPFS file stores the url of the Youtube video to play.
+
+Mint the free NFT here https://mumbai.polygonscan.com/address/0x4b36d1e269e4c1fb4d9c6f5939ba1a6fea732353#writeContract
+
+Encrypted IPFS CID was created though the upload feature of this sample repo https://github.com/spheronFdn/sdk/tree/main/examples/browser-upload
+
+Verified Smart Contract on Polygon Mumbai https://mumbai.polygonscan.com/address/0x9524a647e688d9D71976B404582c2958A974242A
+
+How the project uses Spheron
+- Encrypts file to IPFS using Spheron SDK
+- Decrypts file from IPFS using Spheron SDK
+- Dapp is hosted on Spheron as a static site on IPFS
+
+## Getting Started with Next
 
 First, run the development server:
 
