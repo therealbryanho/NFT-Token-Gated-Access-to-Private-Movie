@@ -16,7 +16,7 @@ const SSXComponent = () => {
         const ssx = new SSX({
             providers: {
                 server: {
-                    host: "http://localhost:3000/api"
+                    host: "http://nft-token-gated-access-to-private-movie-7ab58f.spheron.app/api"
                 }
             },
             siweConfig: {
