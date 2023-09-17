@@ -91,7 +91,7 @@ const SSXComponent = () => {
                                     </div>
                             ) : !showMovie ? (
                                     <div>
-                                        <b className="spaceWrap">Hello fellow hacker! You don't have the movie NFT!</b>
+                                        <b className="spaceWrap">Hello fellow hacker! You don&apos;t have the movie NFT!</b>
                                         <div>Get the free NFT from Polygon Mumbai and login again.</div>
                                         <div className="spaceWrap">
                                         <div><a target="_blank" href="https://mumbai.polygonscan.com/address/0x4b36d1e269e4c1fb4d9c6f5939ba1a6fea732353#code">Mint Here</a></div>
@@ -104,7 +104,7 @@ const SSXComponent = () => {
                                     Hello fellow hacker! You are awesome!
                                     </p>
                                     <p>
-                                        Here's an important video to watch!
+                                        Here&apos;s an important video to watch!
                                     </p>
                                     <iframe
                                     width="560"
