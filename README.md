@@ -10,7 +10,7 @@ The IPFS file stores the url of the Youtube video to play.
 
 1) Mint the free NFT here https://mumbai.polygonscan.com/address/0x4b36d1e269e4c1fb4d9c6f5939ba1a6fea732353#writeContract
 
-2) Login and watch movie [https://nft-token-gated-access-to-private-movie-7ab58f.spheron.app/](https://nft-token-gated-access-to-private-movie-one.vercel.app/)
+2) Login and watch movie https://nft-token-gated-access-to-private-movie.vercel.app/
 
 Encrypted IPFS CID was created though the upload feature of this sample repo https://github.com/spheronFdn/sdk/tree/main/examples/browser-upload
 
@@ -19,7 +19,6 @@ Verified Smart Contract on Polygon Mumbai https://mumbai.polygonscan.com/address
 How the project uses Spheron
 - Encrypts file to IPFS using Spheron SDK
 - Decrypts file from IPFS using Spheron SDK
-- Dapp is hosted on Spheron as a static site on IPFS
 
 ## Getting Started with Next
 
